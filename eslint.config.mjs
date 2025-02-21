@@ -25,10 +25,6 @@ export default [
     }
   },
   { 
-    ignores: [
-      "eslint.config.mjs",
-      "dist/*",
-      "docs/*"
-    ] 
+    ignores: ["eslint.config.mjs", "coverage/*", "dist/*", "docs/*", ".github/*"] 
   }
 ];
