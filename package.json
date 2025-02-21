@@ -1,13 +1,12 @@
 {
   "name": "ejercicios",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "basicFunctions.js",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
-    "e1": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
-    "e2": "tsc-watch --onSuccess \"node dist/ejercicio-2.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
     "doc": "typedoc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "coverage": "vitest run --coverage --coverage.include src/*"
   },
   "keywords": [],
   "author": "",
