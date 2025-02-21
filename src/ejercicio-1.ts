@@ -7,7 +7,7 @@ type Complejo = {
 // Función para sumar dos números complejos
 export function add(c1: Complejo, c2: Complejo): Complejo {
   return { real: c1.real + c2.real, imag: c1.imag + c2.imag };
-}
+}  
 
 // Función para restar dos números complejos
 export function sub(c1: Complejo, c2: Complejo): Complejo {
